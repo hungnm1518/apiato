@@ -1,10 +1,15 @@
 {
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hungnm1518/core"
+    }
+  ],
   "require": {
-    "apiato/core": "dev-master",
-    "barryvdh/laravel-debugbar": "3.*"
+    "apiato/core": "dev-master"
   },
   "require-dev": {
-    "barryvdh/laravel-ide-helper": "2.4.*"
+    "barryvdh/laravel-ide-helper": "2.5.*"
   },
   "autoload": {
     "files": [
