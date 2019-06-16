@@ -1,6 +1,7 @@
 /node_modules
 /public/hot
 /public/storage
+/public/backend/
 /storage/*.key
 /vendor
 /.idea
@@ -10,11 +11,17 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+composer.lock
 .env
 storage/logs/laravel.log
 /public/api-rendered-markdowns/*
 /public/api/
 /public/uploads/
+/public/backend/
+/public/frontend/
 /laradock*/
 _ide_helper*.php
 .phpstorm.meta.php
+vendor/
+resource/views
+resource/lang
